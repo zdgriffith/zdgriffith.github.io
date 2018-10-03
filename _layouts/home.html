@@ -1,0 +1,23 @@
+---
+layout: archive
+---
+
+<h1>About me</h1>
+<section class="page__content" itemprop="text">
+    <p>
+        I'm a physicist by trade, data-wrangler and machine learning practicioner by training.  I'm currently a member of the IceCube collabration, an international team tackling some of the hardest questions in astrophysics today.  In my research I search for particles of light so energetic they blow up in the Earth's atmosphere.  Interested in how?  <a href="/research/">Read more here</a>.
+
+    </p>
+    <p>
+        Outside of my research life, I enjoy giving back to the Python data science community through contributions to open source software, spreading science interest through public outreach events, and keeping up with the awesome things happening here in Madison through the MadPy and Big Data Madison MeetUps.  In my spare time I dabble in guitar and baking (ask me about the science of working with butter!).
+    </p>
+</section>
+<br />
+
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
