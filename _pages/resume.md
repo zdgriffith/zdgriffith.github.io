@@ -19,7 +19,7 @@ I'm interested in opportunities to apply cutting edge machine learning solutions
 NumPy, SciPy, scikit-learn, Pandas, matplotlib, Jupyter, Sphinx
 
 #### Other tools
-git, Bash, SQL, Docker, make, HDF5, Latex
+git, Bash, SQL, Docker, HDF5, Latex
 
 ## Education
 
